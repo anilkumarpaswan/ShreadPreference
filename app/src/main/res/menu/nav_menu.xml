@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Nav_Email"
+        android:title="Email"/>
+    <item
+        android:id="@+id/Nav_Add"
+        android:title="Add"/>
+    <item
+        android:id="@+id/Nav_Pass"
+        android:title="Password"/>
+    <item
+        android:id="@+id/Nav_Name"
+        android:title="Name"/>
+    <item
+        android:id="@+id/Nav_Age"
+        android:title="Age"/>
+    <item
+        android:id="@+id/Nav_RadioButton1"
+        android:title="RadioButton"/>
+
+    <item
+        android:id="@+id/Nav_RadioButton2"
+        android:title="RadioButton"/>
+
+
+</menu>

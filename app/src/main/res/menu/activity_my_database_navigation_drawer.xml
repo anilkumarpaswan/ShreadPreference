@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Email"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Email" />
+        <item
+            android:id="@+id/nav_Name"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Name" />
+        <item
+            android:id="@+id/nav_Addr"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Addr" />
+
+
+        <item
+            android:id="@+id/nav_Age"
+            android:title="Age"/>
+        <item
+            android:id="@+id/nav_RadioButton1"
+            android:title="RadioButton"/>
+        <item
+            android:id="@+id/nav_RadioButton2"
+            android:title="RadioButton"/>
+
+        <item
+            android:id="@+id/nav_Pass"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Password" />
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

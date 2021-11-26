@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN IN"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="#1A1717"/>
+
+
+    <EditText
+        android:id="@+id/etLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:textSize="28sp"
+        />
+    <EditText
+        android:id="@+id/etLAddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Addr"
+        android:textSize="28sp"
+        />
+
+    <EditText
+        android:id="@+id/etLAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textSize="28sp"
+        />
+
+
+    <EditText
+        android:id="@+id/etLPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="28sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="30sp"
+        android:textColor="#333335"
+        android:background="#2020DA"/>
+
+
+
+</LinearLayout>
